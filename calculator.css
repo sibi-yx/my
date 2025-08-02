@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+display: inline-block;
+ margin-top: 200px;
+margin-left: 600px;
+margin-right: 300px;
+margin-bottom: 30px;
+padding: 20px;
+border-radius: 20px;
+background-color: rgb(36, 33, 33);
+}
+#screen{
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(19, 82, 19);
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-style: oblique;
+   
+    
+
+}
+button{
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:wheat;
+    font-size: 20px;
+    
+}
+.buttons{
+    margin-left: 10px;
+    
+}
+.solar{
+    position: relative;
+    left: 200px;
+    height: 20px;
+    width: 60px;
+    background-color: rgb(2, 40, 41);
+    border: 1px solid grey;
+}
+button:hover{
+    background-color: rgb(225, 225, 91);
+    transition: 0.3s;
+
+}
+ .dlt{
+    width: 125px;
+    height: 35px;
+    font-size: inherit;
+     background-color:gray;
+    color: white;
+    margin-bottom: 5px;
+   
+}
+.ac{
+    width: 125px;
+    height: 35px;
+    font-size: inherit;
+    
+    background-color:gray;
+    color: white;
+    margin-bottom: 5px;
+   
+}
+.dlt:hover{
+    background-color: black;
+
+}
+.ac:hover{
+    background-color: black;
+}
+
+#screen{
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
